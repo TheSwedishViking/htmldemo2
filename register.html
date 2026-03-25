@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        
+        <form action="http://primat.se/services/sendform.aspx?xid=registrering&xmail=
+        robinbertling10@gmail.com" method="post">
+        <label for="name">Ditt namn</label>
+        <input id="name" type="text" name="name" placeholder="Ange ditt namn"><br>
+        <label for="expectations">Dina förväntningar</label>
+        <textarea id="expectations" name="expectations" rows="5" cols="80"></textarea>
+
+        <p>Välj maträtt</p>
+        <input type="radio" name="food" id="meat" value="meat">
+        <label for="meat">Kött</label>
+        <br>
+        <input type="radio" name="food" id="fish" value="fish">
+        <label for="fish">Fish</label>
+        <br>
+        <input type="checkbox" name="newsletter" value="ja">
+        <input type="hidden" name="newsletter" value="nej">
+        <label for="newsletter">Vill du ha nyhetsbrev?</label>
+        <br>
+        <input type="date" name="thedate">
+        <br>
+        <input type="number" name="antal" id="antal" min="1" max="10" step="2" placeholder="1">
+        <label for="number">Ciggaretter?</label>
+        <br>
+        <input type="color" name="grassstrain" id="grassstrain">
+        <label for="grassstrain">Välj dina favorit från Babblarna!</label>
+            <img src="Images/yummigif.gif" alt="Cat" style="width:30px;height:30px;">
+        <br>
+        <input type="email" name="epost" id="epost" placeholder="Blixten@Queen.com" required>
+        <label for="epost">E-post</label>
+        <br>    
+        <select name="bestcountry">
+            <option value="russia">Russia</option>
+            <option value="israel">Israel</option>
+            <option value="northkorea">North Korea</option>
+            <option value="india">India</option>
+
+        </select>
+        <label for="bestcountry">Greatest country in the world</label>
+        <br>
+        <input type="submit" value="Skicka">
+    </form>
+
+
+
+
+</body>
+</html>
